@@ -1,4 +1,10 @@
 {
+  "name": "parcel-pug-config",
+  "source": "src/index.pug",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
     "@parcel/transformer-pug": "^2.3.2",
     "@parcel/transformer-sass": "^2.3.2"
