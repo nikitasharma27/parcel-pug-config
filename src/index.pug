@@ -1,10 +1,33 @@
 doctype html
 html(lang="")
   head
-    // ...
-    <link rel="stylesheet" href="styles.scss" />
+    //- Stylesheet
+    link(rel="stylesheet" href="styles.scss")
+
   body
     h1(id="message") Hello
-    include ./includes/cta.pug
 
+    //- Sample if else block
+    - var showLogin = false;
+    if authorized && showLogin === true
+        .welcome Welcome back to our website!
+    else
+        .login
+            a(href="https://parceljs.org/") Click to know more
+    br
+    
+    //- Sample loop
+    -var array = ['Hope', 'You', 'Like', 'It'];
+    - for (var i = 0; i < array.length; ++i) {
+      b= ' '+ array[i] 
+    - }
+    br
+    br
+
+    //- Sample include
+    include ./includes/cta.pug
+    -var btnTxt = "Click Me";
+    +cta-redirect(btnTxt)
+
+  //- Script
   script(src="index.js")

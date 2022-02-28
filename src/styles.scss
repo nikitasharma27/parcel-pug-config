@@ -2,6 +2,8 @@ $messagecolor: black;
 $bgcolor: powderblue;
 body {
     background-color: $bgcolor;
+    width: 100%;
+    text-align: center;
 }
 #message {
     color: $messagecolor;
