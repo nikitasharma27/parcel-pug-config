@@ -1,1 +1,0 @@
-{"mappings":"AAEA;EACI,kBAFM;;;AAIV;EACI,OANW;EAOX;EACA","sources":["src/styles.scss"],"sourcesContent":["$messagecolor: pink;\n$bgcolor: powderblue;\nbody {\n    background-color: $bgcolor;\n}\n#message {\n    color: $messagecolor;\n    font-size: 3em;\n    text-align: center;\n}"],"names":[],"version":3,"file":"index.4a508c1d.css.map","sourceRoot":"/__parcel_source_root/"}
