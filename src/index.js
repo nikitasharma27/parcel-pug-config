@@ -1,1 +1,1 @@
-document.getElementById('message').innerText = "Hello World!";
+document.getElementById('message').innerText = "Welcome To BMO";

@@ -2,12 +2,13 @@
   "name": "parcel-pug-config",
   "source": "src/index.pug",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel src/index.pug",
+    "build": "parcel build src/index.pug"
   },
   "devDependencies": {
     "@parcel/transformer-pug": "^2.3.2",
-    "@parcel/transformer-sass": "^2.3.2"
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
     "node-sass": "^7.0.1"
